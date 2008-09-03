@@ -10,6 +10,5 @@ task :clean do
 end
 
 task :test do
-  sh "bin/rbv8 sample/concat.rb"
-  sh "bin/rbv8 sample/fib.rb"
+  sh "time bin/rbv8 sample/concat.rb"
 end

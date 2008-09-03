@@ -15,21 +15,22 @@ will be required.
 
 == Benchmarks
 
-sample/concat.rb
-rbv8:       0m0.987s
-Ruby 1.8.6: 0m9.565s
-Ruby 1.9.0: 0m9.669s
+sample/concat.rb (taken from http://hotruby.yukoba.jp/benchmark/bm_loop_times.html)
+  rbv8:           0.987 sec
+  Firefox 3:      3.636 sec
+  Safari 3:       4.368 sec
+  Opera 9.50:     4.679 sec
+  Ruby 1.8.6:     9.565 sec
+  Ruby 1.9.0:     9.669 sec
+  Rubinius 0.8.0: 15.576 sec
+  JRuby 1.1 b1:   42.691 sec
 
-Other results (from http://hotruby.yukoba.jp/benchmark/bm_loop_times.html)
-Firefox 3:    3.636 sec
-Safari 3:     4.368 sec
-Opera 9.50:   4.679 sec
-Ruby 1.9.0:   12.051 sec
-JRuby 1.1 b1: 42.691 sec
+On the other hand, the other scripts in sample are super slow on rbv8...
 
 == Install
 
 You need:
+
 Ruby 1.9 installed as ruby19 (or change it in bin/rbv8) is required:
   ftp://ftp.ruby-lang.org/pub/ruby/1.9/
 

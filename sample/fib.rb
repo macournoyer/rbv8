@@ -1,5 +1,9 @@
-def fib(n)
-  return n if n == 0 || n == 1
-  fib(n-1) + fib(n-2)
+def fib n
+  if n < 3
+    1
+  else
+    fib(n-1) + fib(n-2)
+  end
 end
-fib(16)
+
+fib(34)
