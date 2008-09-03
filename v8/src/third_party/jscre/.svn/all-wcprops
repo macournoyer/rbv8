@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/101/trunk/src/third_party/jscre
+END
+pcre.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/101/trunk/src/third_party/jscre/pcre.h
+END
+ucptable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/10/trunk/src/third_party/jscre/ucptable.cpp
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/10/trunk/src/third_party/jscre/LICENSE
+END
+pcre_compile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/10/trunk/src/third_party/jscre/pcre_compile.cpp
+END
+ASCIICType.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/10/trunk/src/third_party/jscre/ASCIICType.h
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/10/trunk/src/third_party/jscre/AUTHORS
+END
+pcre_xclass.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/10/trunk/src/third_party/jscre/pcre_xclass.cpp
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/10/trunk/src/third_party/jscre/config.h
+END
+pcre_chartables.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/10/trunk/src/third_party/jscre/pcre_chartables.c
+END
+pcre_tables.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/10/trunk/src/third_party/jscre/pcre_tables.cpp
+END
+pcre_ucp_searchfuncs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/10/trunk/src/third_party/jscre/pcre_ucp_searchfuncs.cpp
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/10/trunk/src/third_party/jscre/COPYING
+END
+ucpinternal.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/10/trunk/src/third_party/jscre/ucpinternal.h
+END
+pcre_internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/10/trunk/src/third_party/jscre/pcre_internal.h
+END
+pcre_exec.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/10/trunk/src/third_party/jscre/pcre_exec.cpp
+END

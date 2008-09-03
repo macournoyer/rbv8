@@ -1,0 +1,54 @@
+8
+
+dir
+110
+http://v8.googlecode.com/svn/trunk/test/mozilla
+http://v8.googlecode.com/svn
+
+
+
+2008-09-02T14:56:44.120955Z
+101
+v8.team.kasperl
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ce2b1a6d-e550-0410-aec6-3dcde31c8c00
+
+testcfg.py
+file
+
+
+
+
+2008-09-02T21:09:29.000000Z
+05078f323525efbf58551976e5d78bf3
+2008-09-01T08:55:01.134550Z
+60
+mads.s.ager@gmail.com
+has-props
+
+mozilla.status
+file
+
+
+
+
+2008-09-02T21:09:29.000000Z
+a7493589d744923330e99b69fb08df7f
+2008-09-02T14:56:44.120955Z
+101
+v8.team.kasperl
+has-props
+

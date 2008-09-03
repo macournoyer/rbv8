@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/101/trunk/test/mozilla
+END
+testcfg.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/60/trunk/test/mozilla/testcfg.py
+END
+mozilla.status
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/101/trunk/test/mozilla/mozilla.status
+END

@@ -1,0 +1,54 @@
+8
+
+dir
+110
+http://v8.googlecode.com/svn/trunk/include
+http://v8.googlecode.com/svn
+
+
+
+2008-09-02T14:56:44.120955Z
+101
+v8.team.kasperl
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ce2b1a6d-e550-0410-aec6-3dcde31c8c00
+
+v8.h
+file
+
+
+
+
+2008-09-02T21:09:31.000000Z
+ff79670016a75c635c1b4a4633b9e4cb
+2008-09-02T14:56:44.120955Z
+101
+v8.team.kasperl
+has-props
+
+debug.h
+file
+
+
+
+
+2008-09-02T21:09:31.000000Z
+34d365b91fe2d2698bdcf3e56e65b91b
+2008-09-02T14:56:44.120955Z
+101
+v8.team.kasperl
+has-props
+

@@ -1,0 +1,85 @@
+8
+
+dir
+110
+http://v8.googlecode.com/svn/trunk
+http://v8.googlecode.com/svn
+
+
+
+2008-09-02T14:56:44.120955Z
+101
+v8.team.kasperl
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+ce2b1a6d-e550-0410-aec6-3dcde31c8c00
+
+test
+dir
+
+tools
+dir
+
+LICENSE
+file
+
+
+
+
+2008-09-02T21:09:40.000000Z
+f589b9792168143862509461bb5f2242
+2008-08-11T06:58:13.116843Z
+10
+mads.s.ager
+has-props
+
+include
+dir
+
+samples
+dir
+
+src
+dir
+
+ChangeLog
+file
+
+
+
+
+2008-09-02T21:09:40.000000Z
+cc195b10029417b65d86cf011f6d17c3
+2008-09-02T14:56:44.120955Z
+101
+v8.team.kasperl
+has-props
+
+SConstruct
+file
+
+
+
+
+2008-09-02T21:09:40.000000Z
+0dd3eff58a309888f13cc57d17f18cc7
+2008-09-02T14:56:44.120955Z
+101
+v8.team.kasperl
+has-props
+
+benchmarks
+dir
+

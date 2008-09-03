@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/60/trunk/samples
+END
+count-hosts.js
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/10/trunk/samples/count-hosts.js
+END
+process.cc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/60/trunk/samples/process.cc
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/60/trunk/samples/SConscript
+END
+shell.cc
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/60/trunk/samples/shell.cc
+END
