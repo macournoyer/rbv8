@@ -1,49 +1,22 @@
-rbv8 -- A Ruby VM running on Google V8 super VM.
+= rbv8 -- A Ruby VM running on Google V8.
 
-V8 (http://code.google.com/p/v8/) is running Javascript,
-a highly dynamic language, faster then fast.
+V8 (http://code.google.com/p/v8/) is running Javascript, a highly dynamic language, faster then fast.
 Ruby is a super highly dynamic language too!
 Ruby must be uber fast on V8, no?
 Lets see ...
 
-== TODO
-This is a prototype! If this project seems cool enough, a complete refactoring
-will be required.
-
-* Remove dependency over YARV parser and bytecode emitter by porting to js.
-* ...
-
-== Benchmarks
-
-sample/concat.rb (taken from http://hotruby.yukoba.jp/benchmark/bm_loop_times.html)
-  rbv8:           0.987 sec
-  Firefox 3:      3.636 sec
-  Safari 3:       4.368 sec
-  Opera 9.50:     4.679 sec
-  Ruby 1.8.6:     9.565 sec
-  Ruby 1.9.0:     9.669 sec
-  Rubinius 0.8.0: 15.576 sec
-  JRuby 1.1 b1:   42.691 sec
-
-On the other hand, the other scripts in sample are super slow on rbv8...
+If you're looking for the original prototype using HotRuby, check the hotruby branch.
 
 == Install
-
-You need:
-
-Ruby 1.9 installed as ruby19 (or change it in bin/rbv8) is required:
-  ftp://ftp.ruby-lang.org/pub/ruby/1.9/
 
 Make sure your meet V8 Pre-requisites: http://code.google.com/apis/v8/build.html#pre_reqs
 
 Then run:
   rake build
 
-== Running your cute Ruby script
+== Running your cute lil' Ruby script
 
-For now, all is hardcoded in bin/rbv8 so pls run from root dir:
-
-  bin/rbv8 your_ruby_script.rb
+  build/rbv8 your_ruby_script.rb
 
 == Licence
 
@@ -51,5 +24,5 @@ Ruby Licence.
 
 == Copyright
 
-js/hotuby.js: yukoba (http://hotruby.accelart.jp/)
-other: http://macournoyer.com
+Marc-Andre Cournoyer
+http://macournoyer.com

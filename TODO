@@ -1,0 +1,5 @@
+* Copy parser from MRI/Rubinius in vm
+* Write js to rb translator in js and bootstrap using vm
+* Create kernel Ruby classes (translated to js)
+* Create JIT js code emitter
+* Become a better breakdancer
