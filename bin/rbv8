@@ -1,3 +1,0 @@
-#!/usr/bin/env sh
-ruby19 rb/compiler.rb $@ > .opcode.js
-./v8/shell ./js/boot.js
