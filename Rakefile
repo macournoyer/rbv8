@@ -3,7 +3,7 @@ require 'tools/red'
 KERNEL_SRC = FileList["kernel/*.rb"]
 EXEC       = "build/rbv8"
 
-task :build => [EXEC, 'kernel:compile']
+task :build => [EXEC, 'kernel:build', 'codegen:build']
 task :default => :build
 
 task :clean do
@@ -12,6 +12,9 @@ task :clean do
   rm_rf "build"
 end
 
+task :spec do
+  sh "mspec/bin/mspec ci spec"
+end
 
 # == VM
 
@@ -29,7 +32,7 @@ end
 
 namespace :kernel do
   desc "Compile kernel Ruby files to JavaScript"
-  task :compile => KERNEL_SRC.ext("js").sub(/^/, "build/")
+  task :build => KERNEL_SRC.ext("js").sub(/^/, "build/")
   
   KERNEL_SRC.each do |rb|
     js = "build/kernel/" + File.basename(rb).ext('js')
@@ -39,6 +42,21 @@ namespace :kernel do
     end
   end
 end
+
+
+# == CodeGen
+
+namespace :codegen do
+  task :build => "codegen/ruby_parser.rb"
+  
+end
+
+rule '.rb' => '.y' do |t|
+  sh "racc -l -t -E -o #{t.name} #{t.source}"
+end
+
+
+# == Utils
 
 def mkdir_for(file)
   mkdir_p File.dirname(file)

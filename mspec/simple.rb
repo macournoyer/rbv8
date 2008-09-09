@@ -1,0 +1,5 @@
+require 'mspec/matchers/base'
+require 'mspec/expectations'
+require 'mspec/expectations/should'
+require 'mspec/runner/base'
+require 'mspec/runner/formatters/immediate'
